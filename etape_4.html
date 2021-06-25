@@ -13,15 +13,30 @@
 	<body > 	<!-- Corps de la page -->
         
         <!-- HEADER Titre de la page -->
-        <div class="jumbotron text-center" style="margin-bottom:0">
-            <h1>Exemple d'utilisation de Bootstrap</h1>
-        </div>
-        <!-- Fin HEADER -->
+		<!-- HEADER Titre de la page -->
+		<div class="jumbotron text-center" style="margin-bottom:0">
+			<h1>Exemple d'utilisation de Bootstrap</h1>
+		</div>
+	<!-- Fin HEADER -->
+
 		
 
 		<!-- MENU PRINCIPAL -->
-		<div><a href="#">Accueil</a> - <a href="#">Cours HTML</a> - <a href="#">Cours CSS</a> - <a href="#">Cours PHP</a> - <a href="#">Cours Javascript</a></div>
-
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+			<a class="navbar-brand" href="#">Accueil</a>
+			
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+						<ul class="navbar-nav">
+							<li class="nav-item"><a class="nav-link" href="#">CoursHTML</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">CoursCSS</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">CoursPHP</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">CoursJavascript</a></li>
+						</ul>
+					</div>
+		</nav>
 		<!-- ZONE PRINCIPALE -->
 		<div>	
 			<h2>introduction</h2>
